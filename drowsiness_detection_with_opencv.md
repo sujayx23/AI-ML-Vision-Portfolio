@@ -1,4 +1,4 @@
-# Driver Drowsiness Detection
+# Drowsiness Detection with OpenCV
 
 **Objective**:  
 The project aimed to build an automated real-time driver drowsiness detection system that can analyze the driver’s facial expressions and identify signs of fatigue. The system triggers an alert if the driver shows symptoms of drowsiness, helping to reduce road accidents and improve driver safety.
