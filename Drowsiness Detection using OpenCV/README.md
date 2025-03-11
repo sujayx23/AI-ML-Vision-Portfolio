@@ -36,3 +36,17 @@ The project was formally documented and published in **IEEE Xplore**, making it 
 - **Multi-Factor Drowsiness Detection**: Additional factors such as head position, vehicle speed, and road conditions could be integrated to provide a more comprehensive drowsiness detection model.
 
 This project highlights the use of AI and computer vision to create a safer driving experience, utilizing deep learning and real-time processing to detect and alert drivers at risk of drowsiness.
+
+# Publications
+
+## IEEE Conference Publication
+
+**Title:** Drowsiness Detection using OpenCV
+
+**Conference:** IEEE Xplore Digital Library at ICESC’21
+
+**Link:** https://ieeexplore.ieee.org/document/9532758
+
+
+---
+
