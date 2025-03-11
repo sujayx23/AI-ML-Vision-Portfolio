@@ -39,8 +39,6 @@ This project highlights the use of AI and computer vision to create a safer driv
 
 **Publications**
 
-**IEEE Conference Publication**
-
 **Title:** Drowsiness Detection using OpenCV
 
 **Conference:** IEEE Xplore Digital Library at ICESC’21
