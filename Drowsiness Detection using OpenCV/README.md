@@ -37,9 +37,9 @@ The project was formally documented and published in **IEEE Xplore**, making it 
 
 This project highlights the use of AI and computer vision to create a safer driving experience, utilizing deep learning and real-time processing to detect and alert drivers at risk of drowsiness.
 
-** Publications **
+**Publications**
 
-** IEEE Conference Publication**
+**IEEE Conference Publication**
 
 **Title:** Drowsiness Detection using OpenCV
 
