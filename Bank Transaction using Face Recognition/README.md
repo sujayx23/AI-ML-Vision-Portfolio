@@ -34,4 +34,10 @@
 
 - **Security Considerations**: The system ensures that only the registered user's face can authenticate and perform transactions. It also stores sensitive data, such as transaction details, securely in the SQLite database. The system is resistant to simple spoofing methods (like photos) due to the deep learning model's ability to recognize faces with high accuracy.
 
-**Link to Published Paper**: [IEEE Xplore - Bank Transaction Using Face Recognition](https://ieeexplore.ieee.org/document/10060800)
+ **Publications**
+ 
+ **IEEE Conference Publication**
+ 
+ **Title:** Bank Transaction using Face Recognition
+ 
+ **Conference:** Published in IEEE Xplore at IIHC’22: (https://ieeexplore.ieee.org/document/10060800)
