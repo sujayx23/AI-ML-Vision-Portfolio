@@ -40,4 +40,5 @@
  
  **Title:** Bank Transaction using Face Recognition
  
- **Conference:** Published in IEEE Xplore at IIHC’22: (https://ieeexplore.ieee.org/document/10060800)
+ **Conference:** IEEE Xplore at IIHC’22
+ **Link:** https://ieeexplore.ieee.org/document/10060800
