@@ -4,66 +4,54 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-brightgreen)
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+![Accuracy](https://img.shields.io/badge/Accuracy-97%25-green)
+
+---
 
 ## 📖 Overview
-The **Real-Time Drowsiness Detection System** is an AI-powered application designed to enhance driver safety by monitoring facial expressions and detecting signs of fatigue. By analyzing the driver's **blink rate, yawning frequency, and facial features**, the system can promptly trigger alerts, reducing the risk of road accidents due to drowsiness. 
+The **Real-Time Drowsiness Detection System** is an AI-powered application designed to enhance driver safety by continuously monitoring facial expressions and detecting signs of fatigue. This system aims to **reduce road accidents and improve driver safety** by triggering alerts when drowsiness is detected.
 
-🎯 **Objective:**  
-- Detect drowsiness in drivers using computer vision and deep learning techniques.
-- Provide real-time alerts to improve road safety.
+### 🎯 Objective
+- Prevent accidents caused by drowsiness by providing **real-time alerts**.
+- Monitor driver behavior through **blink rate, yawning frequency, and facial expressions**.
 
-## 🧰 Technologies Used
-- **Python:** Core language for algorithm implementation and video processing.
-- **OpenCV:** Facial detection, tracking eye movements, and extracting key facial features (eyes, mouth).
-- **Deep Learning (CNN):** Analysis of facial features to identify drowsiness based on blinking rate and yawning frequency.
+---
+
+## 💡 Motivation
+With thousands of accidents occurring every year due to driver fatigue, this project aims to reduce road accidents by providing a reliable, cost-effective, and easy-to-implement drowsiness detection system.
+
+---
+
+## 🛠️ Technologies Used
+- **Python:** Core programming language for the implementation.
+- **OpenCV:** Used for facial detection, tracking eye movements, and extracting key facial features.
+- **Deep Learning (CNN):** Applied to analyze facial features like eye aspect ratio (EAR) to detect drowsiness.
+- **Dlib Library:** Utilized for facial landmark detection.
 
 ---
 
 ## ✨ Key Features
-- ✅ **Real-time Drowsiness Detection:** Continuously captures and analyzes live video streams to detect fatigue.
-- 👁️ **Facial Feature Extraction:** Identifies eyes, mouth, and eyebrows to monitor blinking patterns and yawning frequency.
-- 🔔 **Alert Mechanism:** Triggers immediate alerts when signs of drowsiness are detected.
-- 💡 **Robustness:** Works efficiently under various lighting conditions and different head positions.
-- 📈 **Accuracy:** Achieved 97% accuracy in detecting drowsy drivers across multiple real-world scenarios.
+- ✅ **Real-time Drowsiness Detection:** Continuously captures and processes video to detect drowsiness instantly.
+- 👁️ **Facial Feature Extraction:** Detects and monitors blinking and yawning patterns using eye aspect ratio (EAR).
+- 🔔 **Alert Mechanism:** Triggers alarms when drowsiness is detected.
+- 🌙 **Lighting Adaptability:** Works effectively under various lighting conditions (bright light & low light).
+- 🔄 **Head Position Tolerance:** Detects drowsiness even when the driver’s face is not perfectly aligned with the camera.
 
 ---
 
-## 📌 Outcome
-- Successfully detected drowsiness in real-time with **97% accuracy**.
-- Enhanced robustness for different lighting conditions and angles.
-- Documented and published in **IEEE Xplore at ICESC’21**. [Read the Paper](https://ieeexplore.ieee.org/document/9532758)
+## 📊 Results
+- Achieved an impressive **97% accuracy** in detecting drowsy drivers across various test scenarios.
+- Successfully handled **different lighting conditions** and **various head positions**.
+- Published Paper: [Read on IEEE Xplore](https://ieeexplore.ieee.org/document/9532758)
 
 ---
 
-## 🔍 Technical Details
-### Facial Detection with OpenCV
-- Utilizes **pre-trained Haar Cascade classifiers** to detect the face and eyes from real-time video streams.
-- Tracks facial landmarks to monitor blinking and yawning behavior.
-
-### Drowsiness Detection Algorithm
-- Calculates **blink rate and yawning frequency** to determine driver fatigue.
-- Works effectively in real-world scenarios by analyzing continuous video streams.
-
-### Real-World Testing
-- Tested on live video feeds to ensure accurate performance.
-- Achieved high accuracy even under **varied lighting conditions** and **head positions**.
-
-### Alert System
-- Provides both **audio and visual alerts** when signs of drowsiness are detected.
-- Designed for immediate intervention to improve driver safety.
-
----
-
-## 🚀 Challenges Overcome
-- **Lighting Variations:** Adapted to bright sunlight and low-light environments.
-- **Head Angles:** Accurate detection even when the face is not directly facing the camera.
-- **Real-Time Processing:** Optimized for live performance, ensuring timely alerts.
-
----
-
-## 🔮 Future Work
-- 🔗 **Integration with Car Systems:** Embedding the model into car infotainment or safety systems for immediate driver feedback.
-- 📊 **Multi-Factor Drowsiness Detection:** Incorporating head position, vehicle speed, and road conditions for comprehensive monitoring.
+## 🔍 Working
+1. **Capture Video Input:** Continuously captures video frames from a camera.
+2. **Face Detection:** Uses OpenCV and Dlib to detect the driver’s face and key facial landmarks.
+3. **Eye Aspect Ratio (EAR):** Measures the distance between the eyes to detect blinking patterns.
+4. **Yawning Detection:** Tracks the mouth opening ratio to detect potential drowsiness.
+5. **Triggering Alerts:** Issues an alarm when drowsiness is detected (EAR below 0.25 for 6 seconds).
 
 ---
 
