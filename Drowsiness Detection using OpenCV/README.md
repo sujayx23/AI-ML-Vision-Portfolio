@@ -54,5 +54,30 @@ With thousands of accidents occurring every year due to driver fatigue, this pro
 5. **Triggering Alerts:** Issues an alarm when drowsiness is detected (EAR below 0.25 for 6 seconds).
 
 ---
+## 📚 Literature Survey
+1. Detection of Drowsiness Using Fusion of Yawning and Eyelid Movements.
+2. Pupil Detection Using IR Camera for Drowsiness Identification.
+3. Drowsiness Detection using ANN and Image Processing.
+4. Various techniques including EEG, EOG, and Binary Eyes Image Data Processing.
 
-## 📁 Repository Structure
+---
+
+## 🔮 Future Scope
+- 📱 **Mobile App Integration:** Developing an Android/iOS app for real-time monitoring.
+- 🔗 **IoT Integration:** Connecting with car systems for automated warnings to family members or emergency contacts.
+- 🚗 **Vehicle Control System:** Mechanically link with brakes and steering to safely park the vehicle when drowsiness is detected.
+
+---
+
+## 💡 Challenges Overcome
+- Handling **lighting variations** from bright sunlight to low-light conditions.
+- Addressing **head position angles** to ensure accurate detection.
+- Optimizing the algorithm for **real-time processing**.
+
+---
+
+## 📌 Publications
+- **Title:** Drowsiness Detection using OpenCV  
+- **Conference:** IEEE Xplore Digital Library at ICESC’21  
+- 📄 [Read the Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/9532758)
+
