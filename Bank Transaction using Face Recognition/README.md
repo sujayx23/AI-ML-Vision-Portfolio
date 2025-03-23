@@ -81,4 +81,7 @@ Traditional banking methods using PINs and passwords are vulnerable to theft and
 
 ---
 
-## 📁 Repository Structure
+## 📧 Contact
+For queries or collaboration, feel free to reach out:
+- **LinkedIn:** [Sujay Nithish Hemakumar](https://www.linkedin.com/in/sujay-nithish-h-8363ba247/)
+
